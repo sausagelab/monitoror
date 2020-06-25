@@ -4,6 +4,7 @@
   "tiles": [
     {
       "type": "HTTP-STATUS",
+      "label": "OwnCloud",
       "params": {
         "url": "https://cloud.parker.jp.net/login",
         "statusCodeMax": 299
@@ -11,13 +12,8 @@
     },
     {
       "type": "PING",
-      "label": "Localhost",
-      "params": { "hostname": "127.0.0.1" }
-    },
-    {
-      "type": "PORT",
-      "label": "Dev server",
-      "params": { "hostname": "127.0.0.1", "port": 8080 }
+      "label": "Media",
+      "params": { "192.168.0.50" }
     }
   ]
 }
