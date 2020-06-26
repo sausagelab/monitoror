@@ -1,14 +1,36 @@
 {
   "version": "2.0",
-  "columns": 2,
+  "columns": 4,
   "tiles":[
     {
       "type": "HTTP-STATUS",
       "label": "OwnCloud",
-      "params": {
-        "url": "https://cloud.parker.jp.net/login",
-        "statusCodeMax": 299
-      }
-    }
+      "params": {"url": "https://cloud.parker.jp.net/login","statusCodeMax": 299}
+       },
+    {
+      "type": "HTTP-STATUS",
+      "label": "Ombi",
+      "params": { "url": "https://ombi.parker.jp.net", "statusCodeMax": 299 }
+       },
+    {
+      "type": "HTTP-STATUS",
+      "label": "Plex",
+      "params": { "url": "https://media.parker.jp.net/web/index.html", "statusCodeMax": 299 }
+       },
+    {
+      "type": "HTTP-STATUS",
+      "label": "Sonarr",
+      "params": { "url": "https://sonarr.parker.jp.net", "statusCodeMax": 299 }
+       },
+    {
+      "type": "HTTP-STATUS",
+      "label": "Radarr",
+      "params": { "url": "https://radarr.parker.jp.net", "statusCodeMax": 299 }
+       },
+    {
+      "type": "HTTP-STATUS",
+      "label": "Tautulli",
+      "params": { "url": "https://tautulli.parker.jp.net", "statusCodeMax": 299 }
+       }
   ]
 }
