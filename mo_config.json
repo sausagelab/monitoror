@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "columns": 2,
-  "tiles": [
+  "tiles":[
     {
       "type": "HTTP-STATUS",
       "label": "OwnCloud",
@@ -9,11 +9,6 @@
         "url": "https://cloud.parker.jp.net/login",
         "statusCodeMax": 299
       }
-    },
-    {
-      "type": "PING",
-      "label": "Media",
-      "params": { "192.168.0.50" }
     }
   ]
 }
