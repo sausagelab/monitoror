@@ -2,8 +2,9 @@
   "type": "GROUP",
   "label": "Business Sales",
   "tiles": [
-    { "type": "PING", "label": "Test", "params": { "hostname": "example.com"}},
-    { "type": "AZUREDEVOPS-BUILD", "params": { "project": "project", "definition": 1, "branch": "master"}},
-    { "type": "PINGDOM-CHECK", "params": { "id": 42}}
+    { "type": "PINGDOM-TRANSACTION-CHECK", "rowSpan": 4, "params": { "id": 57834 } },
+    { "type": "PINGDOM-TRANSACTION-CHECK", "rowSpan": 4, "params": { "id": 57786 } },
+    { "type": "PINGDOM-TRANSACTION-CHECK", "rowSpan": 4, "params": { "id": 57292 } },
+    { "type": "PINGDOM-TRANSACTION-CHECK", "rowSpan": 4, "params": { "id": 57789 } }
   ]
 }
