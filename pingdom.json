@@ -1,12 +1,8 @@
 {
   "version": "2.0",
   "columns": 16,
-  "tiles":[
-    {
-      "type": "PINGDOM-CHECK",
-      "params": {
-        "id": 5529602
-        }
-    },
+  "tiles": [
+    { "type": "PINGDOM-CHECK", "params": { "id": 5529602 } },
+    { "type": "PINGDOM-CHECK", "params": { "id": 5498510 } }
   ]
 }
