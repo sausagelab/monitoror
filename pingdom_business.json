@@ -2,9 +2,9 @@
   "type": "GROUP",
   "label": "Business Sales",
   "tiles": [
-    { "type": "PINGDOM-TRANSACTION-CHECK", "rowSpan": 4, "params": { "id": 57834 } },
-    { "type": "PINGDOM-TRANSACTION-CHECK", "rowSpan": 4, "params": { "id": 57786 } },
-    { "type": "PINGDOM-TRANSACTION-CHECK", "rowSpan": 4, "params": { "id": 57292 } },
-    { "type": "PINGDOM-TRANSACTION-CHECK", "rowSpan": 4, "params": { "id": 57789 } }
+    { "type": "PINGDOM-CHECK", "rowSpan": 2, "params": { "id": 3303250 } },
+    { "type": "PINGDOM-CHECK", "rowSpan": 2, "params": { "id": 4079323 } },
+    { "type": "PINGDOM-CHECK", "rowSpan": 2, "params": { "id": 4479738 } },
+    { "type": "PINGDOM-CHECK", "rowSpan": 2, "params": { "id": 4875551 } }
   ]
 }
