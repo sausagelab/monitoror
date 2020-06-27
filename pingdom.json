@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "columns": 8,
+  "columns": 6,
   "tiles": [
     { "type": "PINGDOM-CHECK", "rowSpan": 2, "params": { "id": 3303250 } },
     { "type": "PINGDOM-CHECK", "rowSpan": 2, "params": { "id": 4079323 } },
