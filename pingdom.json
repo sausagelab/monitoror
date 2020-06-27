@@ -1,12 +1,12 @@
 {
   "version": "2.0",
-  "columns": 4,
+  "columns": 16,
   "tiles":[
     {
       "type": "PINGDOM-CHECK",
       "params": {
         "id": 5529602
         }
-    }
+    },
   ]
 }
