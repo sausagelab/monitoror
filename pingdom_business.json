@@ -1,12 +1,26 @@
 {
   "version": "2.0",
-  "columns": 4,
+  "columns": 2,
   "type": "GROUP",
-  "label": "Business Sales",
-  "tiles": [
-    { "type": "PINGDOM-CHECK", "params": { "id": 3303250 } },
-    { "type": "PINGDOM-CHECK", "params": { "id": 4079323 } },
-    { "type": "PINGDOM-CHECK", "params": { "id": 4479738 } },
-    { "type": "PINGDOM-CHECK", "params": { "id": 4875551 } }
+  "label": "Group name",
+    "tiles": [
+    {
+      "type": "PING",
+      "label": "Test",
+      "params": {
+        "hostname": "example.com" }
+    },
+    {
+      "type": "AZUREDEVOPS-BUILD",
+      "params": {
+        "project": "project",
+        "definition": 1,
+        "branch": "master" }
+    },
+    {
+      "type": "PINGDOM-CHECK",
+      "params": {
+        "id": 42 }
+    }
   ]
 }
