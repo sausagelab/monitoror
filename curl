@@ -1,0 +1,3 @@
+curl --location --request GET 'https://api.pingdom.com/api/3.1/tms/check?tags=www' --header 'Authorization: Bearer 90Qy6JQVjm3HhnIg_r7C8-5gNcqNwO2x2NURpUobqzslUc0q9u66wHdoNnzmfnJRP2dqVko' | jq '.checks[] | .id'
+
+curl --location --request GET 'https://api.pingdom.com/api/3.1/tms/check?tags=www' --header 'Authorization: Bearer 90Qy6JQVjm3HhnIg_r7C8-5gNcqNwO2x2NURpUobqzslUc0q9u66wHdoNnzmfnJRP2dqVko' | jq -c '.checks[] | select( .name | contains("credit")) | .id'
